@@ -26,10 +26,18 @@ Rapidly-exploring Random Trees (RRT) is a path planning algorithm that:
 
 - Python 3.x
 - `pyyaml` package
+- `fcl` package
+- `open3d` package
 
 Install the `pyyaml` package if you haven't already:
 ```sh
 pip install pyyaml
+```
+```sh
+pip install fcl-python
+```
+```sh
+pip install open3d
 ```
 
 ### Steps to Run
@@ -108,7 +116,3 @@ A sample input file is provided at `/path-planning-using-prm-and-rrt/inputs/samp
 ### Visualization
 A visualization example is given in the form of a video. You can refer to this video for a better understanding of how the robots move within the workspace.
 
-Feel free to reach out if you have any questions or need further assistance!
-```
-
-You can save this content into a file named `README.md` and include it in your project repository. This README provides a comprehensive guide on the project, explaining the PRM and RRT concepts, how to run the code, and the input and output file formats.
