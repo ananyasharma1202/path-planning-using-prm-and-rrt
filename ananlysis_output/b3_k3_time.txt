@@ -1,0 +1,15 @@
+Time taken for each run (in seconds):
+Run 1: 8.3724 seconds
+Run 2: 8.3511 seconds
+Run 3: 8.4924 seconds
+Run 4: 8.5292 seconds
+Run 5: 8.5276 seconds
+Run 6: 8.4827 seconds
+Run 7: 8.4842 seconds
+Run 8: 8.5364 seconds
+Run 9: 8.3627 seconds
+Run 10: 8.3328 seconds
+
+Summary Statistics:
+Average Time: 8.4471 seconds
+95%-Confidence Interval: [8.3962, 8.4981] seconds

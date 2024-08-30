@@ -1,0 +1,61 @@
+input_file: 
+  [ 
+    "/inputs/test_1.txt", 
+    "/inputs/test_2.txt"
+  ]  
+  # Path to the input files. Multiple files can be specified in a list.
+
+output_file: 
+  [ 
+    "/outputs/test_1.txt",
+    "/outputs/test_2.txt"
+  ]  
+  # Path to the output files. Corresponding to each input file, there should be an output file.
+
+WORKSPACE_MIN: 
+  [-50, -50, -50] 
+  # Minimum coordinates of the workspace in the format [x, y, z].
+
+WORKSPACE_MAX: 
+  [50, 50, 50] 
+  # Maximum coordinates of the workspace in the format [x, y, z].
+
+num_nodes: 3000 
+  # The total number of nodes to generate in the workspace.
+
+minimum_distance_between_nodes: 0.2 
+  # Minimum allowable distance between any two nodes to avoid clustering.
+
+sampling_near_obstacles: False 
+  # Boolean flag indicating whether to sample more nodes near obstacles.
+
+ratio_of_samples_near_obstacles: 0.1 
+  # Ratio of total nodes to be sampled near obstacles if sampling_near_obstacles is True.
+
+visualize_obstacles: False 
+  # Boolean flag indicating whether to visualize obstacles in the workspace.
+
+visualize_nodes: False 
+  # Boolean flag indicating whether to visualize the nodes generated in the workspace.
+
+nearest_nodes: 5 
+  # Number of nearest nodes to consider for connecting edges in the roadmap.
+
+point_check_distance: 1 
+  # Distance within which to check for existing nodes when generating a new node.
+
+visualize_road_map: False 
+  # Boolean flag indicating whether to visualize the roadmap.
+
+max_node_distance: 0.1 
+  # Maximum distance between nodes to be connected by an edge in the roadmap.
+
+visualize_movement: False 
+  # Boolean flag indicating whether to visualize the movement of nodes (robots).
+
+node_steps: 1.0 
+  # Step size for node movement in the simulation.
+
+time_output_file: './time_analysis_1k.txt' 
+  # Path to the file where timing analysis results will be saved.
+
