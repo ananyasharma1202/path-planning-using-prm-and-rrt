@@ -113,6 +113,9 @@ The output of your program must be a text (.txt) file that specifies the collisi
 ### Sample Input File
 A sample input file is provided at `/path-planning-using-prm-and-rrt/inputs/sample.txt`.
 
-<video width="320" height="240" controls>
-  <source src="inputs/video_sample.MP4" type="video/mp4">
-</video>
+## Visualization
+
+Here is an example of the visualization of the robot paths:
+
+![Path Planning Visualization](inputs/gif_sample.gif)
+
