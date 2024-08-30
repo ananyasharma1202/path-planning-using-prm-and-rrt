@@ -116,4 +116,4 @@ A sample input file is provided at `/path-planning-using-prm-and-rrt/inputs/samp
 ### Visualization
 A visualization example is given in the form of a video. You can refer to this video for a better understanding of how the robots move within the workspace.
 
-ffmpeg -i input_video.mp4 -vf "fps=10,scale=320:-1:flags=lanczos" output.gif
+ffmpeg -i inputs/1725013335.MP4 -vf "fps=10,scale=320:-1:flags=lanczos" output.gif
